@@ -14,3 +14,22 @@ code {
 .header{
   color: #212529;
 }
+.listColor {
+  cursor: pointer;
+}
+.listColor:hover::before {
+  content: 'Click Here (Copy Hex Code)';
+  background-color: rgba(255, 255, 255, 0.71);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  color: #000;
+  padding: 10px;
+}
+
+
+.ulList {
+  overflow: hidden;
+}
