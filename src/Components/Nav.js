@@ -39,6 +39,11 @@ const Nav = () => {
                     <Link to='/Search' className='Search-Items'>Search Items</Link>
                 </span>
               </li>
+              <li className="nav-item">
+                <span className="nav-link "> 
+                    <Link to='/Weather' className='Weather'>Weather</Link>
+                </span>
+              </li>
             </ul>
           </div>
         </nav>

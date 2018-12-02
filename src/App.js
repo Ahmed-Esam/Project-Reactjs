@@ -8,6 +8,7 @@ import TodoList from './Components/TodoList/TodoList';
 import Courses from './Components/CrudApp/courses';
 import ColorPage from './Components/colorUi/ColorPage';
 import Search from './Components/search/SearchItems';
+import Weather from './Components/Weather/Weather';
 
 
 
@@ -26,6 +27,7 @@ class App extends Component {
               <Route path='/Courses' component={Courses}/>
               <Route path='/Color' component={ColorPage}/>
               <Route path='/Search' component={Search}/>
+              <Route path='/Weather' component={Weather}/>
             </Switch>
           </div>
         </BrowserRouter>
