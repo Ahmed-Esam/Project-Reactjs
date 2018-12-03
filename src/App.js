@@ -4,6 +4,7 @@ import { BrowserRouter, Route , Switch} from "react-router-dom";
 import Counter from "./Components/counter/counter";
 import Nav from "./Components/layout/Nav";
 import Home from "./Components/layout/Home";
+import Footer from "./Components/layout/Footer";
 import TodoList from './Components/TodoList/TodoList';
 import Courses from './Components/CrudApp/courses';
 import ColorPage from './Components/colorUi/ColorPage';
@@ -29,6 +30,7 @@ class App extends Component {
               <Route path='/Search' component={Search}/>
               <Route path='/Weather' component={Weather}/>
             </Switch>
+            <Footer/>
           </div>
         </BrowserRouter>
        
