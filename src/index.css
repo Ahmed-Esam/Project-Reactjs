@@ -33,3 +33,12 @@ code {
 .ulList {
   overflow: hidden;
 }
+
+.Weather-container {
+  background-color: #1b72bc9e;
+  color: #fff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+}
